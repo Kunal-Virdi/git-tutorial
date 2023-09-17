@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<conio.h>
-int main()
+void main()
 {
     int a, b=1;
     printf("enter");
@@ -9,6 +9,8 @@ int main()
     {
         printf("\n%d x %d = %d",a,b,(a*b));
         b++;
+        a++;
     }
-    return 0;
+    getch();
+    
 }
